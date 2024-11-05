@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaklista</title>
+    <style>
+        .contact-item{
+            display: flex;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        input{
+            padding: 5px;
+        }
+        button {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Kontaklista</h2>
+    <div id="new-contakt">
+        <input type="text" id ="nameInput" placeholder="Namn">
+        <input type ="text" id ="phoneInput" placeholder="Telefon">
+        <button id="createButton">Skapa</button>
+
+    </div>
+    <ul id="Kontaklista"></ul>
+    <script src="kontakt.js"></script>
+    
+</body>
+</html>
